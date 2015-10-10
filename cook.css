@@ -1,0 +1,181 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 2, 2015, 10:49:19 AM
+    Author     : RAMAMS3
+*/
+
+
+* {margin: 0; padding: 0;}
+
+body {font: 100% Normal Arial, Helvetica, sans-serif; background: #161712;}
+
+form, input, select, textarea {margin: 0; padding: 0; color: #000000;}
+
+div.box {
+    margin: 0 auto;
+    width: 300px;
+    background: grey;
+    position: relative;
+    top: 50px;
+    border: 1px solid #262626;
+}
+
+div.ingbox {
+    margin: 0 auto;
+    width: 700px;
+    background: #cc99ff;
+    position: relative;
+    top: 50px;
+    border: 1px solid #262626;
+}
+
+div.stepbox {
+    
+   margin: 0 auto;
+    width: 500px; 
+    position: relative;
+    top: 50px;
+    border: 1px solid #262626;
+    background: #cc33ff;
+    padding: 2px;
+    
+  
+}
+div.ingbox h1 {
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0 5px 5px 5px;
+    border-bottom: 1px solid #161712;
+    border-top: 1px solid #161712;
+}
+
+
+div.box h1 {
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0 5px 5px 5px;
+    border-bottom: 1px solid #161712;
+    border-top: 1px solid #161712;
+}
+
+div.box label {
+    width: 100%;
+    display: block;
+    background: grey;
+    border-top: 1px solid #262626;
+    border-bottom: 1px solid #161712;
+    padding: 10px 0 10px 0;
+}
+
+div.box label span {
+    display: block;
+    color: #bbbbbb;
+    font-size: 12px;
+    float: left;
+    width: 100px;
+    text-align: right;
+    padding: 5px 20px 0 0;
+}
+div.stepbox label {
+    width: 100%;
+    display: block;
+   // background: grey;
+    border-top: 1px solid #262626;
+    border-bottom: 1px solid #161712;
+    padding: 10px 10px 10px 0;
+}
+div.box.input_text {
+    padding: 10px 10px;
+    width: 200px;
+    background: #262626;
+    border-bottom: 1px double #171717;
+    border-top: 1px double #171717;
+    border-left: 1px double #333333;
+    border-right: 1px double #333333;
+}
+
+div.box.message{
+    padding: 7px 7px;
+    width: 350px;
+    background: #262626;
+    border-bottom: 1px double #171717;
+    border-top: 1px double #171717;
+    border-left: 1px double #333333;
+    border-right: 1px double #333333;
+    overflow: hidden;
+    height: 150px;
+}
+
+div.box .button{
+    margin: 0 0 10px 0;
+    padding: 4px 7px;
+    background: #CC0000;
+    border: 0px;
+    position: relative;
+    top: 10px;
+    left: 382px;
+    width: 100px;
+    border-bottom: 1px double #660000;
+    border-top: 1px double #660000;
+    border-left: 1px double #FF0033;
+    border-right: 1px double #FF0033;
+}
+
+div.ingbox.input_text {
+    padding: 10px 10px;
+    width: 200px;
+    background: #262626;
+    border-bottom: 1px double #171717;
+    border-top: 1px double #171717;
+    border-left: 1px double #333333;
+    border-right: 1px double #333333;
+}
+
+div.ingbox.input_text_small {
+    padding: 10px 10px;
+    width: 50px;
+    background: #262626;
+    border-bottom: 1px double #171717;
+    border-top: 1px double #171717;
+    border-left: 1px double #333333;
+    border-right: 1px double #333333;
+}
+
+div.stepbox.input_text_desc {
+    padding: 10px 10px;
+    width: 600px;
+    background: #262626;
+    border-bottom: 1px double #171717;
+    border-top: 1px double #171717;
+    border-left: 1px double #333333;
+    border-right: 1px double #333333;
+}
+.idx{
+    
+     color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0 5px 5px 5px;
+    border-bottom: 1px solid #161712;
+    border-top: 1px solid #161712;
+    
+}
+label.nextline{
+    clear: left;
+}
+
+div.ingbox label {
+    width: 100%;
+    display: block;
+    background: grey;
+    border-top: 1px solid #262626;
+    border-bottom: 1px solid #161712;
+    padding: 10px 0 10px 0;
+    clear: left;
+}

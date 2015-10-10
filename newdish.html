@@ -1,0 +1,541 @@
+
+<!DOCTYPE html >
+<html>
+<head>
+
+<title>Vegetarian Cooking with Janaki - ADMIN </title>
+</head>
+<body bgcolor="#cc99ff">
+
+
+<form name="frm21" method="post" action="/newdish">
+<table>
+<tr>
+<td>
+Recipe Name
+</td>
+<td>
+<input type="text" name="rName"  />
+
+</td>
+</tr>
+
+<tr>
+<td>
+Recipe Description
+
+</td>
+<td>
+<textarea rows="5" cols="30" name="rDesc"></textarea>
+
+</td>
+</tr>
+<tr>
+<td>
+Cooking Time
+
+</td>
+<td>
+<input type="text" name="cookTime" />
+
+</td>
+</tr>
+<tr>
+<td>
+
+Serves Up to : (TO DO)
+</td>
+<td>
+<input type="text" name="serves" />
+
+</td>
+</tr>
+<tr>
+<td>
+
+Type of Food 
+</td>
+<td>
+<select name="type" >
+<option value="Main Dish">Main Dish
+<option value="Snack">Snack
+<option value="Powders to Preserve ">Powders to Preserve
+<option value="Pickles to Preserve">Pickles to Preserve
+<option value="Sweats">Sweats
+<option value="Traditional / Festive ">Traditional / Festive 
+
+</select>
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Active
+</td>
+<td>
+
+
+
+<input type="radio" name="active"  value="true"> True
+ <input type="radio" name="active"  value="false">False
+
+
+</td>
+</tr>
+<tr>
+<td>
+Additional Comments(TO DO)
+
+</td>
+<td>
+<textarea rows="4" cols="30" name="comments2"></textarea>
+
+</td>
+</tr>
+<tr>
+<td>
+Image URL  (TO DO)
+
+</td>
+<td>
+
+<input type="text" name="imgURL"> </input>
+</td>
+</tr>
+<tr>
+<td>
+Video URL (To DO) 
+
+</td>
+<td>
+<input type="text" name="videoURL"></input>
+
+</td>
+</tr>
+
+<tr>
+<td colspan=2 bgcolor="red">
+
+<table  bgcolor="pink" border=1 width=600>
+<tr>
+<td>
+
+Ingredient Name
+</td>
+<!--<td>-->
+<!--<input name="ingName1" size=20 ></input>-->
+<!---->
+<!--</td>-->
+<!--</tr>-->
+<!--<tr>-->
+<td>
+Ingredient Quantity
+
+</td>
+<!--<td>-->
+<!--<input name="ingQty1" size=20 ></input>-->
+<!--</td>-->
+<!--</tr>-->
+<!--<tr>-->
+<td>
+Ingredient  Comments
+</td>
+<!--<td>-->
+<!--<textarea rows="3" cols="20" name="ingComments1"></textarea>-->
+<!--</td>-->
+<!--</tr>-->
+<!--<tr>-->
+<td>
+
+Ingredient Order
+</td>
+<!--<td>-->
+<!--<input name="ingOrder1" size=5 ></input>-->
+<!--</td>-->
+</tr>
+
+<tr>
+
+<td>
+<input name="ingName1" size=20 ></input>
+
+</td>
+<!--</tr>-->
+<!--<tr>-->
+<td>
+<input name="ingQty1" size=20 ></input>
+</td>
+<!--</tr>-->
+<!--<tr>-->
+
+<td>
+<textarea rows="3" cols="20" name="ingComments1"></textarea>
+</td>
+<!--</tr>-->
+<!--<tr>-->
+
+<td>
+<input name="ingOrder1" size=5 value="1"></input>
+</td>
+</tr>
+
+<tr>
+<td>
+<input name="ingName2" size=20 ></input>
+</td>
+<td>
+<input name="ingQty2" size=20 ></input>
+</td>
+<td>
+<textarea rows="3" cols="20" name="ingComments2"></textarea>
+</td>
+<td>
+<input name="ingOrder2" size=5 value="2" ></input>
+</td>
+</tr>
+
+<tr>
+<td>
+<input name="ingName3" size=20 ></input>
+</td>
+<td>
+<input name="ingQty3" size=20 ></input>
+</td>
+<td>
+<textarea rows="3" cols="20" name="ingComments3"></textarea>
+</td>
+<td>
+<input name="ingOrder3" size=5 value="3"></input>
+</td>
+</tr>
+
+<tr>
+<td>
+<input name="ingName4" size=20 ></input>
+</td>
+<td>
+<input name="ingQty4" size=20 ></input>
+</td>
+<td>
+<textarea rows="3" cols="20" name="ingComments4"></textarea>
+</td>
+<td>
+<input name="ingOrder4" size=5 value="4" ></input>
+</td>
+</tr>
+
+<tr>
+<td>
+<input name="ingName5" size=20 ></input>
+</td>
+<td>
+<input name="ingQty5" size=20 ></input>
+</td>
+<td>
+<textarea rows="3" cols="20" name="ingComments5"></textarea>
+</td>
+<td>
+<input name="ingOrder5" size=5  value="5"></input>
+</td>
+</tr>
+
+<tr>
+<td>
+<input name="ingName6" size=20 ></input>
+</td>
+<td>
+<input name="ingQty6" size=20 ></input>
+</td>
+<td>
+<textarea rows="3" cols="20" name="ingComments6"></textarea>
+</td>
+<td>
+<input name="ingOrder6" size=5 value="6"></input>
+</td>
+</tr>
+
+<tr>
+<td>
+<input name="ingName7" size=20 ></input>
+</td>
+<td>
+<input name="ingQty7" size=20 ></input>
+</td>
+<td>
+<textarea rows="3" cols="20" name="ingComments7"></textarea>
+</td>
+<td>
+<input name="ingOrder7" size=5 value="7" ></input>
+</td>
+</tr>
+
+<tr>
+<td>
+<input name="ingName8" size=20 ></input>
+</td>
+<td>
+<input name="ingQty8" size=20 ></input>
+</td>
+<td>
+<textarea rows="3" cols="20" name="ingComments8"></textarea>
+</td>
+<td>
+<input name="ingOrder8" size=5 value="8" ></input>
+</td>
+</tr>
+
+<tr>
+<td>
+<input name="ingName9" size=20 ></input>
+</td>
+<td>
+<input name="ingQty9" size=20 ></input>
+</td>
+<td>
+<textarea rows="3" cols="20" name="ingComments9"></textarea>
+</td>
+<td>
+<input name="ingOrder9" size=5 value="9" ></input>
+</td>
+</tr>
+
+<tr>
+<td>
+<input name="ingName10" size=20 ></input>
+</td>
+<td>
+<input name="ingQty10" size=20 ></input>
+</td>
+<td>
+<textarea rows="3" cols="20" name="ingComments10"></textarea>
+</td>
+<td>
+<input name="ingOrder10" size=5  value="10"></input>
+</td>
+</tr>
+
+<tr>
+<td>
+<input name="ingName11" size=20 ></input>
+</td>
+<td>
+<input name="ingQty11" size=20 ></input>
+</td>
+<td>
+<textarea rows="3" cols="20" name="ingComments11"></textarea>
+</td>
+<td>
+<input name="ingOrder11" size=5 value="11" ></input>
+</td>
+</tr>
+
+<tr>
+<td>
+<input name="ingName12" size=20 ></input>
+</td>
+<td>
+<input name="ingQty12" size=20 ></input>
+</td>
+<td>
+<textarea rows="3" cols="20" name="ingComments12"></textarea>
+</td>
+<td>
+<input name="ingOrder12" size=5 value="12" ></input>
+</td>
+</tr>
+
+<tr>
+<td>
+<input name="ingName13" size=20 ></input>
+</td>
+<td>
+<input name="ingQty13" size=20 ></input>
+</td>
+<td>
+<textarea rows="3" cols="20" name="ingComments13"></textarea>
+</td>
+<td>
+<input name="ingOrder13" size=5 value="13" ></input>
+</td>
+</tr>
+
+
+
+
+
+
+
+
+</table>
+</td>
+</tr>
+<tr>
+<td colspan=2>
+
+<table  bgcolor="green" cellpadding=5 border=1 width=600>
+<tr>
+<td align="center">
+
+Method Detail
+</td>
+<td align="center">
+
+Method  Order
+</td>
+</tr>
+
+<tr>
+
+<td>
+<input name="metDetail1" size=100 ></input>
+
+</td>
+
+<td>
+<input name="metOrder1" size=5 value="1"></input>
+</td>
+</tr>
+
+<tr>
+<td>
+<input name="metDetail2" size=100 ></input>
+</td>
+
+<td>
+<input name="metOrder2" size=5 value="2" ></input>
+</td>
+</tr>
+
+<tr>
+<td>
+<input name="metDetail3" size=100 ></input>
+</td>
+
+<td>
+<input name="metOrder3" size=5 value="3"></input>
+</td>
+</tr>
+
+<tr>
+<td>
+<input name="metDetail4" size=100 ></input>
+</td>
+
+<td>
+<input name="metOrder4" size=5 value="4" ></input>
+</td>
+</tr>
+
+<tr>
+<td>
+<input name="metDetail5" size=100 ></input>
+</td>
+
+<td>
+<input name="metOrder5" size=5  value="5"></input>
+</td>
+</tr>
+
+<tr>
+<td>
+<input name="metDetail6" size=100 ></input>
+</td>
+
+<td>
+<input name="metOrder6" size=5 value="6"></input>
+</td>
+</tr>
+
+<tr>
+<td>
+<input name="metDetail7" size=100 ></input>
+</td>
+
+<td>
+<input name="metOrder7" size=5 value="7" ></input>
+</td>
+</tr>
+
+<tr>
+<td>
+<input name="metDetail8" size=100 ></input>
+</td>
+
+<td>
+<input name="metOrder8" size=5 value="8" ></input>
+</td>
+</tr>
+
+<tr>
+<td>
+<input name="metDetail9" size=100 ></input>
+</td>
+
+<td>
+<input name="metOrder9" size=5 value="9" ></input>
+</td>
+</tr>
+
+<tr>
+<td>
+<input name="metDetail10" size=100 ></input>
+</td>
+
+<td>
+<input name="metOrder10" size=5  value="10"></input>
+</td>
+</tr>
+
+<tr>
+<td>
+<input name="metDetail11" size=100 ></input>
+</td>
+
+<td>
+<input name="metOrder11" size=5 value="11" ></input>
+</td>
+</tr>
+
+<tr>
+<td>
+<input name="metDetail12" size=100 ></input>
+</td>
+
+<td>
+<input name="metOrder12" size=5 value="12" ></input>
+</td>
+</tr>
+
+<tr>
+<td>
+<input name="metDetail13" size=100 ></input>
+</td>
+
+<td>
+<input name="metOrder13" size=5 value="13" ></input>
+</td>
+</tr>
+
+</table>
+
+
+</td>
+</tr>
+<tr><td><INPUt type="submit"></INPUt></td>
+
+<td><input type="reset" ></input></td>
+
+</tr>
+
+
+</table>
+
+<input type="hidden" name="ingCount" value="13" />
+<input type="hidden" name="metCount" value="13" />
+</form>
+
+
+</body>
+</html>
