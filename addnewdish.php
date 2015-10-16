@@ -18,21 +18,21 @@ and open the template in the editor.
         ?>
         <form action="collect_vals.php" method="POST">
         <div class="box">
-                <h1> Contact Form : </h1>
- <label><span> Full name </span>
-                        <input type="text" class="input_text" name="name" id="name"/>
+                <h1> Add New Dish </h1>
+ <label><span> Dish name </span>
+                        <input type="text" class="input_text" name="dishname" />
 </label>
-<label> <span> Email </span>
-                       <input type="text" class="input_text" name="email" id="email"/>
+<label> <span> Dish Type </span>
+                       <input type="text" class="input_text" name="dishtype" />
 </label>
-                <label>
+<!--                <label>
                         <span> Subject </span>
                         <input type="text" class="input_text" name="subject" id="subject"/>
-                </label>
+                </label>-->
                 <label>
-                         <span> Post </span>
-                        <textarea class="message" name="feedback" id="feedback"> </textarea>
-                        <input type="button" class="button" value="send" />
+                         <span> Description </span>
+                        <textarea class="message" name="dishdesc" > </textarea>
+                        <input type="submit" class="button" value="send" />
                 </label>
         </div>
            
@@ -48,7 +48,7 @@ and open the template in the editor.
            <?php
              echo "$ing" +  "     ";
              ?> )   
-                        Name : 
+                        Ingredient : 
    </span>
                        <input type="text" class="input_text" name="ingname[]" />
                        
